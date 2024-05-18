@@ -108,7 +108,7 @@ workflows:
           failure: false # To not receive a notification when a build fails
       app_store_connect:
         auth: integration
-
+        
         # Configuration related to TestFlight (optional)
         # Note: This action is performed during post-processing.
         submit_to_testflight: true
@@ -147,3 +147,5 @@ workflows:
       email:
         recipients:
           - user_1@example.com
+
+
